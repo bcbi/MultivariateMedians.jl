@@ -1,5 +1,14 @@
 module MultivariateMedians
 
-# Write your package code here.
+import ForwardDiff
+import Optim
+import Statistics
 
-end
+export geometric_median
+export marginal_median
+
+include("geometric.jl")
+include("marginal.jl")
+include("norm.jl")
+
+end # end module MultivariateMedians
