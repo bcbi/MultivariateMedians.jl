@@ -1,7 +1,7 @@
 name = "MultivariateMedians"
 uuid = "373a151e-acda-4bc8-9bb4-f580f7f3cee4"
 authors = ["Dilum Aluthge"]
-version = "0.1.0"
+version = "0.1.0-DEV"
 
 [compat]
 julia = "1"
